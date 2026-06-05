@@ -1,17 +1,11 @@
 'use strict';
 
-
-
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
-
-
 
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
-
-
 
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
@@ -44,8 +38,6 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
-
-
 
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
