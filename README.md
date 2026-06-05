@@ -3,7 +3,7 @@
 HThinh is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
 ## Portfolio Link
-[HThinh-Portfolio](https://hthinh21.github.io/portfolio-hthinh/)
+[HThinh-Portfolio](https://hthinh21.github.io/portfolio-hthinh/).
 
 ## Contact
 
